@@ -53,7 +53,7 @@ goto opt%errorlevel%
 :opt1
 echo ______________________________________________
 echo hello %_name%. welcome to windows71 the os based of MS-DOS.
-echo the os is in beta 2.1
+echo the os is in 
 echo right now there is not much you can do in here but im working
 echo on abilty to add and remove apps like calculator notepad and most
 echo imponrtantly abilty to add remove accounts or set passwords to them
