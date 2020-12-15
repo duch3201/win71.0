@@ -110,29 +110,6 @@ set /p Command= Y.N
 if %Command% == Y goto ms
 if %Command% == N goto opt6
 
-:
-cls
-color 07
-title loading
-echo loading esestials
-echo scanning disk
-echo system version %_ver%
-ping localhost -n 5 >nul
-echo could not locate "memory crash info"
-echo inside clock=good
-ping localhost -n 4 >nul
-echo error could not find "games.bat"
-echo error "music.mp4" was not found
-echo the "mac_bong.mp4" was not found
-echo error not enogh space to install
-echo not enogh ram 
-echo aborting procedures
-echo done
-echo returning to main menu
-echo error not found
-ping localhost -n 6 >nul
-goto cr10
-
 :1
 call cr05.bat
 
