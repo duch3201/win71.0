@@ -11,6 +11,7 @@ echo ......===...===.===...===......==......===......===...===..........===.....
 echo .......===...........===......==......===........===.===........===...............===
 echo please wait starting the os
 ping localhost -n 10 >>nul
+cd /
 cd sounds
 set "file=test.wav"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
